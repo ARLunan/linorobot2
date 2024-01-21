@@ -36,8 +36,8 @@ def generate_launch_description():
     )
 
     world_path = PathJoinSubstitution(
-        #[FindPackageShare("linorobot2_gazebo"), "worlds", "obstacles.sdf"]
-        [FindPackageShare("linorobot2_gazebo"), "worlds", "empty.sdf"]
+        [FindPackageShare("linorobot2_gazebo"), "worlds", "obstacles.sdf"]
+        #[FindPackageShare("linorobot2_gazebo"), "worlds", "empty.sdf"]
     )
 
     description_launch_path = PathJoinSubstitution(
@@ -65,8 +65,8 @@ def generate_launch_description():
             os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')
         ),        
        launch_arguments={
-           #'gz_args': '-v 4 -r ' +  os.path.join(get_package_share_directory('linorobot2_gazebo'), 'worlds', 'obstacles.sdf')
-           'gz_args': '-v 4 -r ' +  os.path.join(get_package_share_directory('linorobot2_gazebo'), 'worlds', 'empty.sdf')
+           'gz_args': '-v 4 -r ' +  os.path.join(get_package_share_directory('linorobot2_gazebo'), 'worlds', 'obstacles.sdf')
+           #'gz_args': '-v 4 -r ' +  os.path.join(get_package_share_directory('linorobot2_gazebo'), 'worlds', 'empty.sdf')
            #'gz_args': '-r ' +  os.path.join(get_package_share_directory('linorobot2_gazebo'), 'worlds', 'playground.world')
            #'gz_args': '-v 4 -r ' +  os.path.join(get_package_share_directory('linorobot2_gazebo'), 'worlds', 'playground2.sdf')
            }.items(),
@@ -79,8 +79,8 @@ def generate_launch_description():
                 arguments=[
                 #'-world', 'playground',
                 #'-world', 'playground2',            
-                '-world', 'empty',
-                #'-world', 'obstacles',
+                #'-world', 'empty',
+                '-world', 'obstacles',
                 '-name', 'linorobot2_2wd',
                 '-topic', 'robot_description',
         ],
