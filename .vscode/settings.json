@@ -1,0 +1,29 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/ubuntutbc/linorobot2gzh_ws/build/linorobot2_gazebo",
+        "/home/ubuntutbc/linorobot2gzh_ws/install/linorobot2_gazebo/lib/python3.10/site-packages",
+        "/home/ubuntutbc/linorobot2gz_ws/install/linorobot2_gazebo/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/linorobot2gz_ws/src/linorobot2gz/linorobot2_gazebo/install/linorobot2_gazebo/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/template_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/template_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/rosgz_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/rosgz_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ubuntutbc/linorobot2gzh_ws/build/linorobot2_gazebo",
+        "/home/ubuntutbc/linorobot2gzh_ws/install/linorobot2_gazebo/lib/python3.10/site-packages",
+        "/home/ubuntutbc/linorobot2gz_ws/install/linorobot2_gazebo/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/linorobot2gz_ws/src/linorobot2gz/linorobot2_gazebo/install/linorobot2_gazebo/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/template_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/template_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/rosgz_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/rosgz_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages",
+        "/home/ubuntutbc/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
