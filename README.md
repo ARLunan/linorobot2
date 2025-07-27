@@ -1,4 +1,4 @@
-# linorobot2 - This fork adds GPS navigation support.
+# linorobot2 - This fork is a varient linoronot2 intended for ROS2 Jazzy and adds PICO/PICO2 Controller, Ackermann Drive and Raspbery Pi Camera. Installation MUST be done withthe Manual Install https://github.com/hippo5329/linorobot2/blob/rolling/ROBOT_INSTALLATION.md and follow the BRANCH_ACKERMAN-Jazzy_NOTES.md in this repository.
 ![linorobot2](docs/linorobot2.gif)
 
 linorobot2 is a ROS2 port of the [linorobot](https://github.com/linorobot/linorobot) package. If you're planning to build your own custom ROS2 robot (2WD, 4WD, Mecanum Drive) using accessible parts, then this package is for you. This repository contains launch files to easily integrate your DIY robot with Nav2 and a simulation pipeline to run and verify your experiments on a virtual robot in Gazebo. 
@@ -30,7 +30,7 @@ robot_type:
 - `2wd` - 2 wheel drive robot.
 - `4wd` - 4 wheel drive robot.
 - `mecanum` - Mecanum drive robot.
-
+- `ackermann` - Ackermann Drive robot.
 laser_sensor:
 - `a1` - [RPLIDAR A1](https://www.slamtec.com/en/Lidar/A1)
 - `a2` - [RPLIDAR A2](https://www.slamtec.ai/product/slamtec-rplidar-a2/)
@@ -62,6 +62,7 @@ depth_sensor:
 - `oakd` - [OAK D](https://shop.luxonis.com/collections/oak-cameras-1/products/oak-d)
 - `oakdlite` - [OAK D Lite](https://shop.luxonis.com/collections/oak-cameras-1/products/oak-d-lite-1)
 - `oakdpro` - [OAK-D Pro](https://shop.luxonis.com/collections/oak-cameras-1/products/oak-d-pro)
+- `rpicam` - [Raspberry Pi Camera] - (https://github.com/ARLunan/Raspberry-Pi-Camera-ROS) 
 
 
 Alternatively, follow this [guide](./ROBOT_INSTALLATION.md) to do the installation manually.

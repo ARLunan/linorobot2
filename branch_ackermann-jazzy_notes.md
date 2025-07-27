@@ -12,4 +12,4 @@ Revisions
    - $ ros2 launch linorobot_viz robot_model.launch.py 
    - To visualize SLAM: $ ros2 launch linorobot_viz slam.launch.py, ro
    - To visualize navigation $ ros2 linorobot2_viz navigation.launch.py 
-6. On Raspberry Pi 4 Install **camera_ros** package, a ROS 2 Node for libcamera supported cameras. Following installation Raspberry Pi Camera ROS https://github.com/ARLunan/Raspberry-Pi-Camera-ROS       
+6. On Raspberry Pi 4 Install **camera_ros** package, a ROS 2 Node for libcamera supported cameras. Following installation Raspberry Pi Camera ROS .        
