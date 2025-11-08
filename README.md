@@ -62,12 +62,6 @@ depth_sensor:
 - `oakd` - [OAK D](https://shop.luxonis.com/collections/oak-cameras-1/products/oak-d)
 - `oakdlite` - [OAK D Lite](https://shop.luxonis.com/collections/oak-cameras-1/products/oak-d-lite-1)
 - `oakdpro` - [OAK-D Pro](https://shop.luxonis.com/collections/oak-cameras-1/products/oak-d-pro)
-- `rpicam` - [Raspberry Pi Camera] - (https://github.com/ARLunan/Raspberry-Pi-Camera-ROS) 
-
-
-Alternatively, follow this [guide](./ROBOT_INSTALLATION.md) to do the installation manually.
-
-### 2. Host Machine / Development Computer - Gazebo Simulation (Optional)
 This step is only required if you plan to use Gazebo later. This comes in handy if you want to fine-tune parameters (ie. SLAM Toolbox, AMCL, Nav2) or test your applications on a virtual robot. 
 
 #### 2.1 Install linorobot2 Package
